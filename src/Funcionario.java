@@ -1,36 +1,34 @@
 public class Funcionario {
-	float id;
-	String nome;
-	float salario;
-	
-	public Funcionario(float id, String nome, float salario) {
+	float idAt;
+	String nomeAt;
+	float salarioAt;
+	public Funcionario(float idAt, String nomeAt, float salarioAt) {
 		super();
-		this.id = id;
-		this.nome = nome;
-		this.salario = salario;
+		this.idAt = idAt;
+		this.nomeAt = nomeAt;
+		this.salarioAt = salarioAt;
+	}
+	public float getIdAt() {
+		return idAt;
 	}
 
-	public float getId() {
-		return id;
+	public void setIdAt(float idAt) {
+		this.idAt = idAt;
 	}
 
-	public void setId(float id) {
-		this.id = id;
+	public String getNomeAt() {
+		return nomeAt;
 	}
 
-	public String getNome() {
-		return nome;
+	public void setNomeAt(String nomeAt) {
+		this.nomeAt = nomeAt;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public float getSalarioAt() {
+		return salarioAt;
 	}
 
-	public float getSalario() {
-		return salario;
-	}
-
-	public void setSalario(float salario) {
-		this.salario = salario;
+	public void setSalarioAt(float salarioAt) {
+		this.salarioAt = salarioAt;
 	}
 }
