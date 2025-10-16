@@ -31,4 +31,8 @@ public class Funcionario {
 	public void setSalarioAt(float salarioAt) {
 		this.salarioAt = salarioAt;
 	}
+	
+	public void exibirInfo() {
+		System.out.println("");
+	}
 }
