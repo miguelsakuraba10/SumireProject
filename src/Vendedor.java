@@ -7,10 +7,13 @@ public class Vendedor extends Funcionario{
 	}
 	
 	public void exibirInfo() {
-		System.out.println("");
+		System.out.println("ID: " + idAt);
+		System.out.println("Nome: " + nomeAt);
+		System.out.println("Salario: " + salarioAt);
 	}
-	public float calcularSalarioTotal(){
-		return salarioAt;
-		return comissaoAt;
+
+	@Override
+	public float calcularSalario(){
+		return salarioAt * bonusAt;
 	}
 }
